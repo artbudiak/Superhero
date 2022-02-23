@@ -16,8 +16,20 @@ class MainCoordinator: Coordinator {
     }
     
     func start() {
-        let startViewController = StartViewController()
-        navigationController.pushViewController(startViewController, animated: false)
+        ProfileManager.sharedInstance.getUser()
+        if ProfileManager.sharedInstance.userProfile != nil {
+            home()
+        } else {
+            let startViewController = StartViewController.instantiate()
+            startViewController.coordinator = self
+            navigationController.pushViewController(startViewController, animated: false)
+        }
+    }
+    
+    func home() {
+        let homeViewController = HomeViewController.instantiate()
+        homeViewController.coordinator = self
+        navigationController.pushViewController(homeViewController, animated: true)
     }
     
     
