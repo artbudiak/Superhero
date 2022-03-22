@@ -16,9 +16,6 @@
 		930EC7E227BC1CC7001DE709 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EC7E127BC1CC7001DE709 /* Coordinator.swift */; };
 		930EC7ED27BC2293001DE709 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EC7EC27BC2293001DE709 /* MainCoordinator.swift */; };
 		930EC7EF27C39218001DE709 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EC7EE27C39218001DE709 /* Storyboarded.swift */; };
-		9328CC3027C3CCD400223F31 /* Profile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9328CC2E27C3CCD400223F31 /* Profile.xcdatamodeld */; };
-		9328CC3327C3CD1F00223F31 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328CC3127C3CD1F00223F31 /* Profile+CoreDataClass.swift */; };
-		9328CC3427C3CD1F00223F31 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328CC3227C3CD1F00223F31 /* Profile+CoreDataProperties.swift */; };
 		9328CC3627C3CD9A00223F31 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328CC3527C3CD9A00223F31 /* ProfileManager.swift */; };
 		9328CC3A27C4144400223F31 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9328CC3927C4144400223F31 /* HomeViewController.storyboard */; };
 		9328CC3F27C441BF00223F31 /* Saira-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9328CC3E27C441BF00223F31 /* Saira-Regular.ttf */; };
@@ -30,6 +27,9 @@
 		9328CC4D27C66A8B00223F31 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328CC4C27C66A8B00223F31 /* StartViewModel.swift */; };
 		9328CC4F27C6835100223F31 /* YellowRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328CC4E27C6835100223F31 /* YellowRoundedButton.swift */; };
 		9328CC5127C685E900223F31 /* ProfileSex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328CC5027C685E900223F31 /* ProfileSex.swift */; };
+		9328CC5C27D79A4100223F31 /* Profile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9328CC5A27D79A4000223F31 /* Profile.xcdatamodeld */; };
+		9328CC5F27D79A7B00223F31 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328CC5D27D79A7B00223F31 /* Profile+CoreDataClass.swift */; };
+		9328CC6027D79A7B00223F31 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328CC5E27D79A7B00223F31 /* Profile+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,9 +44,6 @@
 		930EC7E127BC1CC7001DE709 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		930EC7EC27BC2293001DE709 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		930EC7EE27C39218001DE709 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
-		9328CC2F27C3CCD400223F31 /* Profile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Profile.xcdatamodel; sourceTree = "<group>"; };
-		9328CC3127C3CD1F00223F31 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
-		9328CC3227C3CD1F00223F31 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9328CC3527C3CD9A00223F31 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
 		9328CC3927C4144400223F31 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 		9328CC3E27C441BF00223F31 /* Saira-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saira-Regular.ttf"; sourceTree = "<group>"; };
@@ -58,6 +55,9 @@
 		9328CC4C27C66A8B00223F31 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
 		9328CC4E27C6835100223F31 /* YellowRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowRoundedButton.swift; sourceTree = "<group>"; };
 		9328CC5027C685E900223F31 /* ProfileSex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSex.swift; sourceTree = "<group>"; };
+		9328CC5B27D79A4000223F31 /* Profile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Profile.xcdatamodel; sourceTree = "<group>"; };
+		9328CC5D27D79A7B00223F31 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Profile+CoreDataClass.swift"; path = "../../../Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9328CC5E27D79A7B00223F31 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Profile+CoreDataProperties.swift"; path = "../../../Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,12 +91,13 @@
 			isa = PBXGroup;
 			children = (
 				9328CC3727C3EEB500223F31 /* Extensions */,
-				930EC7E427BC1D1F001DE709 /* Protocols */,
 				930EC7E527BC1DB4001DE709 /* Models */,
+				930EC7E427BC1D1F001DE709 /* Protocols */,
 				930EC7E627BC1DCC001DE709 /* Presentation */,
+				9328CC3827C4117800223F31 /* Storyboards */,
+				9328CC3C27C4413300223F31 /* Resources */,
 				930EC7CD27BC1956001DE709 /* AppDelegate.swift */,
 				930EC7CF27BC1956001DE709 /* SceneDelegate.swift */,
-				9328CC3C27C4413300223F31 /* Resources */,
 				930EC7DB27BC195C001DE709 /* Info.plist */,
 			);
 			path = SuperheroBudiak;
@@ -135,7 +136,6 @@
 				930EC7E827BC1E14001DE709 /* Views */,
 				930EC7E927BC1E1F001DE709 /* ViewModels */,
 				930EC7EA27BC1E26001DE709 /* ViewControllers */,
-				9328CC3827C4117800223F31 /* Storyboards */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -151,6 +151,7 @@
 		930EC7E827BC1E14001DE709 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9328CC4E27C6835100223F31 /* YellowRoundedButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,9 +186,9 @@
 		9328CC2D27C3CC7100223F31 /* ProfileCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				9328CC3127C3CD1F00223F31 /* Profile+CoreDataClass.swift */,
-				9328CC3227C3CD1F00223F31 /* Profile+CoreDataProperties.swift */,
-				9328CC2E27C3CCD400223F31 /* Profile.xcdatamodeld */,
+				9328CC5D27D79A7B00223F31 /* Profile+CoreDataClass.swift */,
+				9328CC5E27D79A7B00223F31 /* Profile+CoreDataProperties.swift */,
+				9328CC5A27D79A4000223F31 /* Profile.xcdatamodeld */,
 			);
 			path = ProfileCoreData;
 			sourceTree = "<group>";
@@ -198,7 +199,6 @@
 				9328CC4427C63ADE00223F31 /* UIColor+CustomColor.swift */,
 				9328CC4627C63AED00223F31 /* UIFont+CustomFont.swift */,
 				9328CC4827C63AF800223F31 /* UIView+Gradient.swift */,
-				9328CC4E27C6835100223F31 /* YellowRoundedButton.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -206,9 +206,14 @@
 		9328CC3827C4117800223F31 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				930EC7D327BC1956001DE709 /* StartViewController.storyboard */,
 				930EC7D827BC195C001DE709 /* LaunchScreen.storyboard */,
-				9328CC3927C4144400223F31 /* HomeViewController.storyboard */,
+				937D1BB127E0B2E200E05C33 /* Start */,
+				937D1BB227E0B2F700E05C33 /* Home */,
+				937D1BB327E0B32C00E05C33 /* Profile */,
+				937D1BB627E0B38600E05C33 /* Progress */,
+				937D1BB727E0B38C00E05C33 /* Programs */,
+				937D1BB427E0B34C00E05C33 /* Muscle */,
+				937D1BB527E0B36800E05C33 /* Calculate */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -228,6 +233,57 @@
 				9328CC3E27C441BF00223F31 /* Saira-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		937D1BB127E0B2E200E05C33 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				930EC7D327BC1956001DE709 /* StartViewController.storyboard */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		937D1BB227E0B2F700E05C33 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9328CC3927C4144400223F31 /* HomeViewController.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		937D1BB327E0B32C00E05C33 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		937D1BB427E0B34C00E05C33 /* Muscle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Muscle;
+			sourceTree = "<group>";
+		};
+		937D1BB527E0B36800E05C33 /* Calculate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calculate;
+			sourceTree = "<group>";
+		};
+		937D1BB627E0B38600E05C33 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		937D1BB727E0B38C00E05C33 /* Programs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Programs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,16 +366,16 @@
 				9328CC3627C3CD9A00223F31 /* ProfileManager.swift in Sources */,
 				930EC7D227BC1956001DE709 /* StartViewController.swift in Sources */,
 				930EC7CE27BC1956001DE709 /* AppDelegate.swift in Sources */,
-				9328CC3327C3CD1F00223F31 /* Profile+CoreDataClass.swift in Sources */,
 				9328CC5127C685E900223F31 /* ProfileSex.swift in Sources */,
 				930EC7ED27BC2293001DE709 /* MainCoordinator.swift in Sources */,
 				9328CC4727C63AED00223F31 /* UIFont+CustomFont.swift in Sources */,
 				9328CC4D27C66A8B00223F31 /* StartViewModel.swift in Sources */,
-				9328CC3027C3CCD400223F31 /* Profile.xcdatamodeld in Sources */,
 				930EC7D027BC1956001DE709 /* SceneDelegate.swift in Sources */,
-				9328CC3427C3CD1F00223F31 /* Profile+CoreDataProperties.swift in Sources */,
 				930EC7EF27C39218001DE709 /* Storyboarded.swift in Sources */,
+				9328CC5C27D79A4100223F31 /* Profile.xcdatamodeld in Sources */,
+				9328CC5F27D79A7B00223F31 /* Profile+CoreDataClass.swift in Sources */,
 				9328CC4927C63AF800223F31 /* UIView+Gradient.swift in Sources */,
+				9328CC6027D79A7B00223F31 /* Profile+CoreDataProperties.swift in Sources */,
 				9328CC4327C52BD000223F31 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,8 +534,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,8 +566,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -550,12 +606,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9328CC2E27C3CCD400223F31 /* Profile.xcdatamodeld */ = {
+		9328CC5A27D79A4000223F31 /* Profile.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				9328CC2F27C3CCD400223F31 /* Profile.xcdatamodel */,
+				9328CC5B27D79A4000223F31 /* Profile.xcdatamodel */,
 			);
-			currentVersion = 9328CC2F27C3CCD400223F31 /* Profile.xcdatamodel */;
+			currentVersion = 9328CC5B27D79A4000223F31 /* Profile.xcdatamodel */;
 			path = Profile.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

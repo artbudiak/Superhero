@@ -4,6 +4,6 @@
         <attribute name="sex" attributeType="String"/>
     </entity>
     <elements>
-        <element name="Profile" positionX="-54" positionY="0" width="128" height="44"/>
+        <element name="Profile" positionX="-36" positionY="9" width="128" height="44"/>
     </elements>
 </model>

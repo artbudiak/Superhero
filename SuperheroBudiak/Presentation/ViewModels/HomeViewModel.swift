@@ -19,7 +19,7 @@ struct HomeViewModel {
     
     init() {
         let profile = ProfileManager.sharedInstance.userProfile!
-        let sex = ProfileSex(rawValue: profile.sex)
+        let sex = Sex(rawValue: profile.sex)
         switch sex {
         case .male:
             characterImageName = maleImageName

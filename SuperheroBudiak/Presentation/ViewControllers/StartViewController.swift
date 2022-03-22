@@ -19,7 +19,7 @@ class StartViewController: UIViewController, Storyboarded {
     
     
     @IBAction func characterChoose(_ sender: UIButton) {
-        let profileSex = ProfileSex.getStringValueByTag(sender.tag)
+        let profileSex = Sex.getStringValueByTag(sender.tag)
         viewModel.createNewUser(profileSex)
         coordinator?.home()
     }
